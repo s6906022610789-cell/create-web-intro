@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ระบบรับสมัครนักศึกษาใหม่ มจพ. 2568</title>
+  <!-- ฟอนต์ภาษาไทยจาก Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== 1) แถบบนสุด ========== -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <span>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ (มจพ.) | KMUTNB</span>
+      <div class="topbar-links">
+        <a href="#">เว็บไซต์มหาวิทยาลัย</a>
+        <a href="#">ระบบ e-Service</a>
+        <a href="#">อีเมลนักศึกษา</a>
+        <a href="#">TH</a> | <a href="#">EN</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== 2) เมนูหลัก (Header) ========== -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#home" class="brand">
+        <!-- ถ้ามีโลโก้จริง ให้เปลี่ยนเป็น <img src="images/logo.png" alt="โลโก้ มจพ."> -->
+        <span class="logo-box"><span class="logo-circle">มจพ.</span></span>
+        <span class="brand-text">
+          <strong>ระบบรับสมัครนักศึกษาใหม่</strong>
+          <small>KMUTNB Admission System 2025</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#home" class="active">หน้าหลัก</a>
+        <a href="#programs">หลักสูตร</a>
+        <a href="#steps">ขั้นตอนการสมัคร</a>
+        <a href="#schedule">กำหนดการ</a>
+        <a href="#faculties">คณะ/สาขา</a>
+        <a href="#news">ข่าวสาร</a>
+        <a href="#apply" class="btn-apply">สมัครเลย</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== 3) Hero ========== -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <span class="badge-open"><i class="dot"></i> เปิดรับสมัครแล้ว ปีการศึกษา 2568</span>
+          <h1>ระบบรับสมัคร<br>นักศึกษาใหม่<br><span class="gold">มจพ. 2568</span></h1>
+          <p>
+            มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ<br>
+            เปิดรับสมัครนักศึกษาระดับปริญญาตรี โท และเอก<br>
+            ผ่านระบบ TCAS และการรับตรง
+          </p>
+          <div class="hero-buttons">
+            <a href="#apply" class="btn btn-gold">เริ่มสมัครเลย →</a>
+            <a href="#programs" class="btn btn-outline-white">ดูหลักสูตรทั้งหมด</a>
+          </div>
+
+          <div class="stats">
+            <div><b>22+</b><span>คณะวิชา</span></div>
+            <div><b>120+</b><span>สาขาวิชา</span></div>
+            <div><b>5,400+</b><span>ที่นั่งทั้งหมด</span></div>
+            <div><b>4</b><span>รอบรับสมัคร</span></div>
+          </div>
+        </div>
+
+        <div class="hero-logo">
+          <div class="ring">
+            <div class="logo-white"><span class="logo-circle big">มจพ.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4) แถบประกาศ ========== -->
+    <div class="announce">
+      <div class="announce-inner">
+        <span class="announce-tag">📢 ประกาศ</span>
+        <p>รอบ Portfolio เปิดรับสมัครตั้งแต่ 2 มกราคม – 10 กุมภาพันธ์ 2568 | ประกาศผล 15 กุมภาพันธ์ 2568 | ยืนยันสิทธิ์ 15–20 กุมภาพันธ์ 2568</p>
+      </div>
+    </div>
+
+    <!-- ========== 5) หลักสูตร ========== -->
+    <section class="section white" id="programs">
+      <div class="container">
+        <div class="section-head">
+          <span class="pill">หลักสูตรที่เปิดรับ</span>
+          <h2>เลือกหลักสูตร<span>ที่ใช่สำหรับคุณ</span></h2>
+          <div class="line"></div>
+          <p>มจพ. เปิดสอนหลักสูตรระดับปริญญาตรี โท และเอก ครอบคลุมสาขาวิทยาศาสตร์ วิศวกรรมศาสตร์ และเทคโนโลยี</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card program">
+            <div class="program-icon">🎓</div>
+            <small class="level">ปริญญาตรี</small>
+            <h3>Bachelor's Degree</h3>
+            <p>หลักสูตรปริญญาตรี 4 ปี และหลักสูตรต่อเนื่อง/เทียบโอน ครอบคลุมทุกสาขาวิชาด้านวิทยาศาสตร์และเทคโนโลยี</p>
+            <div class="tags">
+              <span class="tag">🪑 3,200 ที่นั่ง</span>
+              <span class="tag">📁 22 คณะ</span>
+            </div>
+            <a href="#" class="btn btn-outline btn-block">ดูรายละเอียด →</a>
+          </article>
+
+          <article class="card program">
+            <div class="program-icon">📚</div>
+            <small class="level">ปริญญาโท</small>
+            <h3>Master's Degree</h3>
+            <p>หลักสูตรปริญญาโท แผน ก และแผน ข มุ่งเน้นการวิจัยและพัฒนาเทคโนโลยีขั้นสูง</p>
+            <div class="tags">
+              <span class="tag">🪑 1,800 ที่นั่ง</span>
+              <span class="tag">📁 15 สาขา</span>
+            </div>
+            <a href="#" class="btn btn-outline btn-block">ดูรายละเอียด →</a>
+          </article>
+
+          <article class="card program">
+            <div class="program-icon">🔬</div>
+            <small class="level">ปริญญาเอก</small>
+            <h3>Doctoral Degree</h3>
+            <p>หลักสูตรปริญญาเอกมุ่งผลิตนักวิชาการและนักวิจัยชั้นนำในระดับนานาชาติ</p>
+            <div class="tags">
+              <span class="tag">🪑 400 ที่นั่ง</span>
+              <span class="tag">📁 10 สาขา</span>
+            </div>
+            <a href="#" class="btn btn-outline btn-block">ดูรายละเอียด →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 6) ขั้นตอนการสมัคร ========== -->
+    <section class="section cream" id="steps">
+      <div class="container">
+        <div class="section-head">
+          <span class="pill">ขั้นตอนการสมัคร</span>
+          <h2>สมัครเรียน<span>ง่ายๆ 4 ขั้นตอน</span></h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">01</div>
+            <h3>ศึกษาข้อมูล</h3>
+            <p>อ่านรายละเอียดหลักสูตร คุณสมบัติผู้สมัคร และกำหนดการรับสมัคร</p>
+          </div>
+          <div class="step">
+            <div class="step-num">02</div>
+            <h3>สมัครออนไลน์</h3>
+            <p>กรอกใบสมัครออนไลน์ผ่านระบบและอัปโหลดเอกสารที่กำหนด</p>
+          </div>
+          <div class="step">
+            <div class="step-num">03</div>
+            <h3>ชำระเงิน</h3>
+            <p>ชำระค่าสมัครผ่านช่องทางธนาคารหรือ QR Code ภายในระยะเวลาที่กำหนด</p>
+          </div>
+          <div class="step">
+            <div class="step-num">04</div>
+            <h3>รอผลการคัดเลือก</h3>
+            <p>ตรวจสอบผลการคัดเลือกตามวันที่ประกาศผลผ่านเว็บไซต์</p>
+          </div>
+        </div>
+
+        <div class="center">
+          <a href="#apply" class="btn btn-gold">เริ่มกรอกใบสมัคร →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 7) กำหนดการ ========== -->
+    <section class="section white" id="schedule">
+      <div class="container">
+        <div class="section-head">
+          <span class="pill">กำหนดการรับสมัคร</span>
+          <h2>ตาราง<span>กำหนดการ</span>ปีการศึกษา 2568</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="grid-2">
+          <!-- รอบ 1 -->
+          <div class="card schedule">
+            <div class="schedule-head">
+              <span class="schedule-icon">📋</span>
+              <div>
+                <h3>รอบที่ 1 — Portfolio</h3>
+                <small>การรับด้วยแฟ้มสะสมผลงาน</small>
+              </div>
+            </div>
+            <table>
+              <thead>
+                <tr><th>ขั้นตอน</th><th>วันที่</th><th>สถานะ</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>รับสมัคร</td><td>2 ม.ค. – 10 ก.พ. 2568</td><td><span class="status green">เปิดรับสมัคร</span></td></tr>
+                <tr><td>ประกาศสิทธิ์</td><td>15 ก.พ. 2568</td><td>—</td></tr>
+                <tr><td>ยืนยันสิทธิ์</td><td>15 – 20 ก.พ. 2568</td><td>—</td></tr>
+                <tr><td>ชำระเงิน</td><td>20 – 25 ก.พ. 2568</td><td>—</td></tr>
+                <tr><td>รายงานตัว</td><td>1 มิ.ย. 2568</td><td>—</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- รอบ 2 -->
+          <div class="card schedule">
+            <div class="schedule-head">
+              <span class="schedule-icon">📝</span>
+              <div>
+                <h3>รอบที่ 2 — Quota</h3>
+                <small>การรับแบบโควตา</small>
+              </div>
+            </div>
+            <table>
+              <thead>
+                <tr><th>ขั้นตอน</th><th>วันที่</th><th>สถานะ</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>รับสมัคร</td><td>1 มี.ค. – 31 มี.ค. 2568</td><td><span class="status yellow">เร็วๆ นี้</span></td></tr>
+                <tr><td>ประกาศสิทธิ์</td><td>5 เม.ย. 2568</td><td>—</td></tr>
+                <tr><td>ยืนยันสิทธิ์</td><td>5 – 10 เม.ย. 2568</td><td>—</td></tr>
+                <tr><td>ชำระเงิน</td><td>10 – 15 เม.ย. 2568</td><td>—</td></tr>
+                <tr><td>รายงานตัว</td><td>1 มิ.ย. 2568</td><td>—</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 8) คณะและสาขา ========== -->
+    <section class="section cream" id="faculties">
+      <div class="container">
+        <div class="section-head">
+          <span class="pill">คณะและสาขาวิชา</span>
+          <h2>เลือก<span>คณะ</span>ที่ชอบ</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="grid-4">
+          <a href="#" class="card faculty"><span class="faculty-icon">⚙️</span><h3>คณะวิศวกรรมศาสตร์</h3><b>18 สาขา</b></a>
+          <a href="#" class="card faculty"><span class="faculty-icon">💻</span><h3>คณะเทคโนโลยีสารสนเทศ</h3><b>6 สาขา</b></a>
+          <a href="#" class="card faculty"><span class="faculty-icon">🏭</span><h3>คณะครุศาสตร์อุตสาหกรรม</h3><b>10 สาขา</b></a>
+          <a href="#" class="card faculty"><span class="faculty-icon">🔭</span><h3>คณะวิทยาศาสตร์</h3><b>8 สาขา</b></a>
+          <a href="#" class="card faculty"><span class="faculty-icon">🏗️</span><h3>คณะสถาปัตยกรรมฯ</h3><b>5 สาขา</b></a>
+          <a href="#" class="card faculty"><span class="faculty-icon">🏥</span><h3>คณะพยาบาลศาสตร์</h3><b>2 สาขา</b></a>
+          <a href="#" class="card faculty"><span class="faculty-icon">📊</span><h3>คณะบริหารธุรกิจ</h3><b>7 สาขา</b></a>
+          <a href="#" class="card faculty"><span class="faculty-icon">🎨</span><h3>คณะอุตสาหกรรมสร้างสรรค์</h3><b>4 สาขา</b></a>
+        </div>
+
+        <div class="center">
+          <a href="#" class="btn btn-outline">ดูคณะทั้งหมด →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 9) ข่าวสาร ========== -->
+    <section class="section white" id="news">
+      <div class="container">
+        <div class="section-head">
+          <span class="pill">ข่าวและประกาศ</span>
+          <h2>ข่าวสาร<span>ล่าสุด</span></h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="news-layout">
+          <!-- ข่าวหลัก -->
+          <article class="card news-main">
+            <div class="news-cover">
+              <span class="news-tag">ประกาศสำคัญ</span>
+              <div class="logo-white small"><span class="logo-circle">มจพ.</span></div>
+            </div>
+            <div class="news-body">
+              <p class="date">📅 28 ก.ย. 2568</p>
+              <h3>ประกาศรับสมัครนักศึกษาใหม่ ระดับปริญญาตรี ประจำปีการศึกษา 2568</h3>
+              <p class="desc">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ ประกาศรับสมัครนักศึกษาใหม่ผ่านระบบ TCAS ทั้ง 4 รอบ เปิดรับสมัครรอบ Portfolio ตั้งแต่วันที่ 2 มกราคม พ.ศ. 2568</p>
+              <a href="#" class="read-more">อ่านต่อ →</a>
+            </div>
+          </article>
+
+          <!-- รายการข่าวด้านข้าง -->
+          <aside class="card news-side">
+            <h3>📌 ประกาศทั้งหมด</h3>
+            <ul>
+              <li><a href="#"><span class="date">📅 25 ก.ย. 2568</span>กำหนดการรายงานตัวและขึ้นทะเบียนนักศึกษาใหม่ ปี 2568</a></li>
+              <li><a href="#"><span class="date">📅 20 ก.ย. 2568</span>ทุนการศึกษาสำหรับนักศึกษาใหม่ประจำปี 2568</a></li>
+              <li><a href="#"><span class="date">📅 15 ก.ย. 2568</span>คณะวิศวกรรมศาสตร์ เปิดรับสมัครนักศึกษา ป.โท หลักสูตรนานาชาติ</a></li>
+              <li><a href="#"><span class="date">📅 10 ก.ย. 2568</span>แนะนำหลักสูตรใหม่ Data Science และ AI Engineering</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 10) FAQ (ใช้ <details> ไม่ต้องใช้ JavaScript) ========== -->
+    <section class="section cream" id="faq">
+      <div class="container narrow">
+        <div class="section-head">
+          <span class="pill">คำถามที่พบบ่อย</span>
+          <h2>FAQ — <span>คำถามที่ถามบ่อย</span></h2>
+          <div class="line"></div>
+        </div>
+
+        <details class="faq">
+          <summary>คุณสมบัติขั้นต่ำสำหรับการสมัครปริญญาตรีคืออะไร?</summary>
+          <p>ต้องกำลังศึกษาอยู่ชั้น ม.6 หรือเทียบเท่า หรือสำเร็จการศึกษาระดับมัธยมศึกษาตอนปลาย และมีคุณสมบัติตามที่แต่ละหลักสูตรกำหนด</p>
+        </details>
+        <details class="faq">
+          <summary>ค่าธรรมเนียมในการสมัครเป็นเท่าไหร่?</summary>
+          <p>ค่าสมัครขึ้นอยู่กับรอบและหลักสูตรที่สมัคร โดยตรวจสอบรายละเอียดได้ในหน้าประกาศรับสมัครของแต่ละรอบ</p>
+        </details>
+        <details class="faq">
+          <summary>สามารถสมัครได้กี่สาขาในแต่ละรอบ?</summary>
+          <p>สามารถเลือกสมัครได้หลายสาขาตามจำนวนที่แต่ละรอบกำหนด กรุณาตรวจสอบเงื่อนไขในประกาศของรอบนั้นๆ</p>
+        </details>
+        <details class="faq">
+          <summary>เอกสารที่ต้องใช้ในการสมัครมีอะไรบ้าง?</summary>
+          <p>สำเนาบัตรประชาชน ระเบียนแสดงผลการเรียน (ปพ.1) รูปถ่าย และเอกสารเพิ่มเติมตามที่หลักสูตรกำหนด เช่น แฟ้มสะสมผลงาน</p>
+        </details>
+        <details class="faq">
+          <summary>หากไม่ผ่านการคัดเลือกรอบที่ 1 สามารถสมัครรอบต่อไปได้หรือไม่?</summary>
+          <p>สามารถสมัครในรอบถัดไปได้ตามกำหนดการ โดยต้องชำระค่าสมัครใหม่ในแต่ละรอบ</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ========== 11) พร้อมสมัคร + ข้อมูลติดต่อ ========== -->
+    <section class="cta" id="apply">
+      <div class="container">
+        <h2>พร้อมสมัครเรียนที่ มจพ. แล้วหรือยัง?</h2>
+        <p>มีคำถามเพิ่มเติม ติดต่อทีมรับสมัครของเราได้เลย</p>
+        <a href="#" class="btn btn-gold">เริ่มสมัครเลย →</a>
+
+        <div class="contact">
+          <div class="contact-box"><span class="ci">📞</span><div><small>โทรศัพท์</small><b>02-555-2000</b></div></div>
+          <div class="contact-box"><span class="ci">✉️</span><div><small>อีเมล</small><b>admission@kmutnb.ac.th</b></div></div>
+          <div class="contact-box wide"><span class="ci">📍</span><div><small>ที่อยู่</small><b>129 หมู่ 21 ต.เนินหอม อ.เมือง จ.ปราจีนบุรี 25230</b></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== 12) Footer ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-about">
+        <div class="footer-brand">
+          <span class="logo-box"><span class="logo-circle">มจพ.</span></span>
+          <strong>มหาวิทยาลัยเทคโนโลยี<br>พระจอมเกล้าพระนครเหนือ</strong>
+        </div>
+        <p>ระบบรับสมัครนักศึกษาใหม่ มจพ. ให้บริการรับสมัครนักศึกษาระดับปริญญาตรี โท และเอก ผ่านระบบออนไลน์ เพื่อความสะดวกและรวดเร็วในการสมัครเรียน</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>การรับสมัคร</h4>
+        <ul>
+          <li><a href="#">รอบที่ 1 Portfolio</a></li>
+          <li><a href="#">รอบที่ 2 Quota</a></li>
+          <li><a href="#">รอบที่ 3 Admission</a></li>
+          <li><a href="#">รอบที่ 4 Direct Admission</a></li>
+          <li><a href="#">การรับตรง</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>ข้อมูลมหาวิทยาลัย</h4>
+        <ul>
+          <li><a href="#">ประวัติมหาวิทยาลัย</a></li>
+          <li><a href="#">คณะและหน่วยงาน</a></li>
+          <li><a href="#">ทุนการศึกษา</a></li>
+          <li><a href="#">หอพักนักศึกษา</a></li>
+          <li><a href="#">แผนที่และการเดินทาง</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>บริการ</h4>
+        <ul>
+          <li><a href="#">ตรวจสอบสถานะการสมัคร</a></li>
+          <li><a href="#">พิมพ์ใบสมัคร</a></li>
+          <li><a href="#">ชำระค่าสมัคร</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">ติดต่อเรา</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">© 2568 มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ สงวนลิขสิทธิ์</p>
+  </footer>
+
+</body>
+</html>
